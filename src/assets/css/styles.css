@@ -97,6 +97,12 @@ main {
   background-color: #fff;
 }
 
+.addable .add-button {
+  background-color: #00d78f;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
 .list {
   margin: 0 5px auto;
   position: relative;
