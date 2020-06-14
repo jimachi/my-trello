@@ -1,6 +1,6 @@
 html {
   background: orange;
-  font-family: 'Avenir', Arial, Helvetica, 'system-ui', sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, 'system-ui', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
@@ -24,6 +24,7 @@ main {
   width: calc(100% - 40px);
   height: 100%;
 }
+
 .info-line {
   margin: 20px;
   font-size: 20px;
@@ -91,16 +92,6 @@ main {
 
 .add-button:active {
   background-color: #00d78f;
-}
-
-.active .text-input {
-  background-color: #fff;
-}
-
-.addable .add-button {
-  background-color: #00d78f;
-  pointer-events: auto;
-  cursor: pointer;
 }
 
 .list {
