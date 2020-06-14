@@ -93,6 +93,10 @@ main {
   background-color: #00d78f;
 }
 
+.active .text-input {
+  background-color: #fff;
+}
+
 .list {
   margin: 0 5px auto;
   position: relative;
